@@ -1,0 +1,4 @@
+env/
+# Ignore all .csv files in the datasets folder
+datasets/*.csv
+clean_datasets/*.csv
