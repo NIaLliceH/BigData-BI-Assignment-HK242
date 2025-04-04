@@ -1,0 +1,11 @@
+services:
+  app:
+    build: 
+      context: .
+      network: host
+    container_name: pyspark-ptdl
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/code
+    # command: ["docker", "run", "-p", "8888:8888", "pyspark-ptdl"]

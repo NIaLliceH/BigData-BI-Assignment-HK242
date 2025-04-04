@@ -1,4 +1,9 @@
-env/
+myenv/
 # Ignore all .csv files in the datasets folder
 datasets/*.csv
 clean_datasets/*.csv
+data_model/*.csv
+data_model/*.npz
+data_model/*.pkl
+cosine_similarity.csv
+env/
