@@ -7,3 +7,5 @@ data_model/*.npz
 data_model/*.pkl
 cosine_similarity.csv
 env/
+
+.env
