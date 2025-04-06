@@ -1,3 +1,4 @@
+There should be a "*.pbix" file in here. If there is none when cloned, install git lfs.
 # Installation
 
 Follow the steps below to set up the project:
