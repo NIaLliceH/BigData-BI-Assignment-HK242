@@ -3,6 +3,7 @@ services:
     build: 
       context: .
       network: host
+      dockerfile: dockerfile  # Ensure it's not an absolute path
     container_name: pyspark-ptdl
     ports:
       - "8888:8888"

@@ -1,0 +1,7 @@
+[wsl2]
+networkingMode=mirrored
+processors=8
+memory=10GB
+swap=16
+swapFile=D:\\wsl-swap.vhdx
+pageReporting=true
