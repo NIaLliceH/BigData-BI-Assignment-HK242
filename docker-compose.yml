@@ -1,0 +1,25 @@
+services:
+  model-3:
+    build: ./model-3
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./model-3/src:/app/src
+    # environment:
+    #   - PYSPARK_PYTHON=python3
+    #   - PYSPARK_DRIVER_PYTHON=jupyter
+    #   - PYSPARK_DRIVER_PYTHON_OPTS=notebook --ip=0.0.0.0 --port=8888 --allow-root --NotebookApp.token='' --NotebookApp.password='' --NotebookApp.notebook_dir='/app/src'
+
+
+# services:
+#   app:
+#     build: 
+#       context: .
+#       network: host
+#       dockerfile: dockerfile  # Ensure it's not an absolute path
+#     container_name: pyspark-ptdl
+#     ports:
+#       - "8888:8888"
+#     volumes:
+#       - .:/code
+#     # command: ["docker", "run", "-p", "8888:8888", "pyspark-ptdl"]

@@ -1,0 +1,12 @@
+# Ignore all .csv files in the datasets folder
+raw_datasets/
+clean_datasets/
+data_model/
+
+myenv/
+env/
+
+.ipynb_checkpoints/
+
+model-3/
+
